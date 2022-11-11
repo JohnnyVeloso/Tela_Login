@@ -49,9 +49,17 @@ input {
     border: 0.5px solid rgb(41, 108, 255);
 }
 
-input:hover {
+#dados input:hover {
     border: 0.5px solid rgb(0, 69, 219);
 }
+
+#dados :focus {
+    border: 0.5px solid rgb(0, 69, 219);
+    box-shadow: 0 0 10px rgb(0, 69, 219,0.5);
+    -webkit-box-shadow: 0 0 10px rgb(0, 69, 219,0.5);
+    outline: 0;
+}
+
 
 label {
     color: rgb(41, 108, 255);
