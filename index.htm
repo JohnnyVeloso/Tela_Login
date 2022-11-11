@@ -5,22 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/botao.css">
 </head>
 <body>
     <main>
         <div id="cabeca">
-            <h2>Login <!DOCTYPE html></h2>
+            <h2>Login<!DOCTYPE html></h2>
             
         </div>
-        <form action="cadastro.js">
+        <form action="cadastro.js" method="post">
             <div id="email">
                 <label for="iemail">Seu e-mail:</label> <br>
-                <input type="text" name="email" id="iemail">
+                <input type="text" name="email" id="iemail" required>
             </div>
             <div id="senha">
                 <label for="isenha">Senha:</label> <br>
-                <input type="password" name="senha" id="isenha">
+                <input type="password" name="senha" id="isenha" required>
+            </div>
+            <div id="Entrar">
+                <input type="submit" value="Entrar">
             </div>
         </form>
     </main>

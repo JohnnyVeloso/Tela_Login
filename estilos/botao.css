@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+#Entrar {
+    position: absolute;
+    left: 38%;
+}
+
+#Entrar > input {
+    width: 90px;
+    height: 30px;
+    background-color: white;
+    color: rgb(41, 108, 255);
+}
